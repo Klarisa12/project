@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+    --primary: #f8e8ee;
+    --bg: #faf3f0;
+    --login: #95bdff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "poppins", sans-serif;
+    background-color: var(--bg);
+    color: #000000;
+  }
+  
+  .navbar-atas {
+    background-color: #f8e8ee;
+  }
+  
+  .navbar-collapse {
+    flex-direction: column-reverse;
+  }
+  
+  .saldo {
+    border-top-width: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 0px;
+    margin-top: 25px;
+    background-color: beige;
+    width: 200px;
+    border: black 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .Paket {
+    margin-top: 25px;
+  }
+  
+  .gambar-paket-1 {
+    object-fit: contain;
+  }
+  
+  .gambar-paket-2 {
+    object-fit: cover;
+  }
+  
+  .gambar-paket-3 {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .ambil {
+    background-color: beige;
+    border: black 2px solid;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+  } */
