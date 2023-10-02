@@ -1,50 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inika&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inika&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Home</title>
-    <link href="../dist/output.css" rel="stylesheet">
+    <link href="../dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="flex flex-row bg-pink-200 h-fit py-[10px] items-center gap-[150px] justify-between px-[15px]">
+    <nav
+      class="flex flex-row bg-pink-200 h-fit py-[10px] items-center gap-[150px] justify-between px-[15px]"
+    >
       <a class="text-left text-3xl font-title" href="#">Laundry Lines</a>
-      <div class="flex flex-row items-center gap-[150px]" >
-        <a class="text-left-3xl font-title hover:underline hover:text-gray-500" href="#">Home</a>
-        <a class="text-left-3xl font-title hover:underline hover:text-gray-500" href="#">About Us</a>
-        <a class="text-left-3xl font-title hover:underline hover:text-gray-500" href="#">History</a>
+      <div class="flex flex-row items-center gap-[150px]">
+        <a
+          class="text-left-3xl font-title hover:underline hover:text-gray-500"
+          href="#"
+          >Home</a
+        >
+        <a
+          class="text-left-3xl font-title hover:underline hover:text-gray-500"
+          href="#"
+          >About Us</a
+        >
+        <a
+          class="text-left-3xl font-title hover:underline hover:text-gray-500"
+          href="#"
+          >History</a
+        >
       </div>
       <div>
         <button>
-          <img 
-          src="asset/icon-bell.svg" 
-          alt="Notifikasi" 
-          class="w-[30px] h-[30px]">
+          <img
+            src="asset/icon-bell.svg"
+            alt="Notifikasi"
+            class="w-[30px] h-[30px]"
+          />
         </button>
         <button>
-          <img 
-          src="asset/icon-user.svg" 
-          alt="User"
-          class="w-[30px] h-[30px]"> 
+          <img src="asset/icon-user.svg" alt="User" class="w-[30px] h-[30px]" />
         </button>
       </div>
     </nav>
-    
-      <main class="w-screen h-screen flex flex-col py-[30px] px-[20px] bg-[#F8E8EE]">
-        <div class="flex flex-col">
-          <a class="text-left text-xl font-title text-gray-400 py-[10px] px-[10px]" href="">Jumlah saldo</a>
-        </div>
-        <div class="bg-black flex items-center justify-center min-h-screen container mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+    <main class=" border border-black bg-[#F9F9F9] pb-[15px] pt-[30px] gap-[30px]">
+       <div>
+         <a class="text-xl text-center font-title py-[20px] px-[20px] gap-[50px]" href="#">Jumlah Saldo</a>
+       </div>
+       <main class="flex flex-row gap-[50px]" >
 
+         <div class="card gap-[50px] " style="width: 18rem ">
+          <img src="asset/gambar-L1.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title font-title text-xl py-[20px] px-[20px] text-center">Nama Laundry</h5>
+            <a href="#" class= "bg-blue-300 h-[30px] w-[150px] flex flex-col
+            rounded-full text-2xl font-serif hover:scale-[105%] items-center text-white duration-75 shadow-md">select</a>
           </div>
-
+        </div>
+        <div class="card gap-[50px]" style="width: 18rem ">
+          <img src="asset/gambar-L1.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title font-title text-xl py-[20px] px-[20px] text-center">Nama Laundry</h5>
+            <a href="#" class= "bg-blue-300 h-[30px] w-[150px] flex flex-col
+            rounded-full text-2xl font-serif hover:scale-[105%] items-center text-white duration-75 shadow-md">select</a>
+          </div>
         </div>
       </main>
-
+    </main>
   </body>
 </html>
